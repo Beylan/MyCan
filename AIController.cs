@@ -260,3 +260,4 @@ public class AIController : MonoBehaviour
 		agent.SetDestination(GameManager.kalp[random].position);
 	}
 }
+
