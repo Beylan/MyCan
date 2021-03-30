@@ -162,3 +162,4 @@ public class Character : MonoBehaviour
         return Physics.CheckCapsule(capsuleCollider.bounds.center, new Vector3(capsuleCollider.bounds.center.x, capsuleCollider.bounds.min.y - 0.1f, capsuleCollider.bounds.center.z), groundDistance, mask);
     }
 }
+
